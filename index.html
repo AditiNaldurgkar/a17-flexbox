@@ -14,6 +14,7 @@
             justify-content: space-evenly;
             flex-direction: row;
             align-items: center;
+            flex-wrap: wrap;
         }
         .itemc1{
             height: 250px;
@@ -21,6 +22,24 @@
             background-color: #ED9455;
             color:white;
             text-align: center;
+        }
+        .container2{
+            height: 900px;
+            width: 1525px;
+            background-color: #FFFBDA;
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: start;
+            flex-direction: column;
+            align-items: start;
+        }
+        .itemc2{
+            height: 300px;
+            width: 350px;
+            background-color: #ED9455;
+            color:white;
+            text-align: center;
+            margin-left: 50px;
         }
         .img{
             position: relative;
@@ -40,10 +59,21 @@
 <body>
     <h1>Explore the best movies here...</h1>
     <div class="container1">
-        <div class="itemc1"> <img class="img" src="mov1.jpeg">
+        <div class="itemc1"> <img class="img" src="mov1.jpeg"><br/>
         <h2>JAB WE MET </h2></div><br/>
-        <div class="itemc1">hello</div><br/>
-        <div class="itemc1">my</div><br/>
+        <div class="itemc1"> <img class="img" src="mov2.jpeg"><br/>
+            <h2>WAKE UP SID </h2></div><br/>
+        <div class="itemc1"><img class="img" src="mov3.jpeg"><br/>
+            <h2>YEH JAWANI HAI DEEWANI </h2></div><br/>
+    </div><br/><br/>
+    <div class="container2">
+        <div class="itemc2"> <img class="img" src="mov4.jpeg"><br/>
+        <h2>Jaane tu jaane na </h2></div><br/>
+        <div class="itemc2"> <img class="img" src="mov5.jpeg"><br/>
+            <h2>Kismat Konnection </h2></div><br/>
+        <div class="itemc2"><img class="img" src="mov6.jpeg"><br/>
+            <h2>Housefull 4 </h2></div><br/>
     </div>
+
 </body>
 </html>
